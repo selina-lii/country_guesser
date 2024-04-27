@@ -7,12 +7,6 @@ In this project we decided to explore the popular game GeoGuessr, and how a neur
 
 
 
-<img src="imgs\umap (1).png" alt="umap (1)" style="zoom: 50%;" />
-
-A bird's eye view of our dataset through UMAP embedding reveals it complexity. Here, each colored dot represent an image from a specific country. There are often no clear distinctions or clusters, making it a perfect challenge for CNN.
-
-
-
 ### Results
 
 Inspired by a [Medium blog](https://medium.com/@tef1/geoguessr-guesser-98e01efb5235) by Barrera-Waters et al., we built a DenseNet121-based model combining transfer learning with add-on convolution layers. We trained on street-view image from the GeoGuessr dataset (36,000 pictures from 55 countries).
@@ -39,9 +33,12 @@ In the confusion matrix, darker color on the diagonal indicate that the country 
 
 ### Further thoughts
 
-Given more time and computing power, we would like to 
+| <img src="imgs\umap (1).png" alt="umap (1)" style="zoom: 200%;" /> | A bird's eye view of our dataset through UMAP embedding reveals it complexity. Here, each colored dot represent an image from a specific country. There are often no clear distinctions or clusters, making it a perfect challenge for CNN. |
+| ------------------------------------------------------------ | ------------------------------------------------------------ |
 
 
+
+Have we had more time and computing power, we would like to -
 
 - Train our model with an even bigger dataset, lower learning rate, and a higher amount of epochs. This way we could have perhaps arrived at a more accurate final model with less overfit.
 
