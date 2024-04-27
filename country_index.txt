@@ -1,0 +1,55 @@
+Kenya 0
+Botswana 1
+Poland 2
+Sweden 3
+Russia 4
+Norway 5
+Brazil 6
+Ghana 7
+Ukraine 8
+France 9
+Belgium 10
+Turkey 11
+Netherlands 12
+Malaysia 13
+Indonesia 14
+Spain 15
+South Korea 16
+Croatia 17
+Australia 18
+Latvia 19
+United Kingdom 20
+Germany 21
+Nigeria 22
+Slovakia 23
+Argentina 24
+Taiwan 25
+Portugal 26
+Ireland 27
+Switzerland 28
+Lithuania 29
+Japan 30
+Bolivia 31
+Colombia 32
+Hungary 33
+Singapore 34
+Mexico 35
+Bulgaria 36
+Romania 37
+South Africa 38
+India 39
+Italy 40
+Denmark 41
+Philippines 42
+New Zealand 43
+Peru 44
+Thailand 45
+Austria 46
+Finland 47
+Bangladesh 48
+Greece 49
+Czechia 50
+Israel 51
+Cambodia 52
+Chile 53
+Canada 54
