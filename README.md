@@ -13,7 +13,7 @@ Inspired by a [Medium blog](https://medium.com/@tef1/geoguessr-guesser-98e01efb5
 
 Our final model achieved 42.8% test accuracy, 13% higher than our benchmark. Here is the **architecture** of our model. In the background you can see expanded DenseBlocks and our 3 conv layers + 1 FC layer is shown to the right.
 
-![image-20240427143926658](imgs/architecture.png)
+![image-20240427143926658](imgs/arch_readme.png)
 
 This is the **Training accuracy** and **confusion matrix** of our final model:
 
