@@ -1,7 +1,7 @@
 # CountryGuessr: EECS442 Final Project
 **By Rodrigo Villegas, Landen Stricker, Yaoxin Li**
 
-<img src="imgs\Background_pic.jpg" alt="Background_pic" style="zoom: 33%;" />
+<img src="imgs\Background_pic_readme.png" alt="Background_pic"  />
 
 In this project we decided to explore the popular game GeoGuessr, and how a neural network could be used to correctly identify the country a street-view picture was taken. The game GeoGuessr boomed in popularity following viral videos from people who had perfected the art of identifying these images, being able to precisely identify the location of an image within seconds. This then sparked our curiosity, prompting us to ask how could a computer compete with these geography fanatics? 
 
@@ -13,9 +13,7 @@ Inspired by a [Medium blog](https://medium.com/@tef1/geoguessr-guesser-98e01efb5
 
 Our final model achieved 42.8% test accuracy, 13% higher than our benchmark. Here is the **architecture** of our model. In the background you can see expanded DenseBlocks and our 3 conv layers + 1 FC layer is shown to the right.
 
-<img src="imgs\architecture.png" alt="image" style="zoom: 33%;" />
-
-
+![image-20240427143926658](imgs/architecture_readme.png)
 
 This is the **Training accuracy** and **confusion matrix** of our final model:
 
@@ -33,7 +31,7 @@ In the confusion matrix, darker color on the diagonal indicate that the country 
 
 ### Further thoughts
 
-| <img src="imgs\umap (1).png" alt="umap (1)" style="zoom: 200%;" /> | A bird's eye view of our dataset through UMAP embedding reveals it complexity. Here, each colored dot represent an image from a specific country. There are often no clear distinctions or clusters, making it a perfect challenge for CNN. |
+| <img src="imgs\umap (1).png" alt="umap (1)" style="zoom: 300%;" /> | A bird's eye view of our dataset through UMAP embedding reveals it complexity. Here, each colored dot represent an image from a specific country. There are often no clear distinctions or clusters, making it a perfect challenge for CNN. |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
 
 
